@@ -372,6 +372,6 @@ if show_data:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: gray; padding: 1rem;'>
-    🌾 Smart Farming IoT Dashboard | Big Data & IoT | 2025
+    🌾 Smart Farming IoT Dashboard | Big Data & IoT | Wahyu Setiawan| 2026
 </div>
 """, unsafe_allow_html=True)
