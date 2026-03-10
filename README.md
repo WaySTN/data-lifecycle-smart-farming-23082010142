@@ -39,22 +39,24 @@ Proyek ini merupakan tugas mata kuliah **Big Data & IoT** yang mengimplementasik
 
 ```
 data-lifecycle-smart-farming-23082010142/
-├── README.md                              ← Dokumentasi (file ini)
-├── requirements.txt                       ← Dependencies untuk deployment
-├── Data_Lifecycle_Smart_Farming.ipynb     ← Notebook analisis utama
-├── data/
-│   └── raw/
-│       └── smart_farming_sensor_data.csv  ← Dataset mentah dari Kaggle
-├── dashboard/
-│   └── streamlit_app.py                   ← Dashboard interaktif Streamlit
-└── outputs/
-    ├── cleaned_data.csv                   ← Data yang sudah dibersihkan
-    ├── eda_distributions.png              ← Visualisasi distribusi EDA
-    ├── correlation_heatmap.png            ← Heatmap korelasi sensor
-    ├── timeseries_trend.png               ← Trend time series sensor
-    ├── boxplot_per_crop.png               ← Boxplot per jenis tanaman
-    ├── distribusi_soil_type.png           ← Distribusi crop per jenis tanah
-    └── data_quality_score.png             ← Visualisasi skor kualitas data
+|-- README.md                              <- Dokumentasi (file ini)
+|-- requirements.txt                       <- Dependencies untuk deployment
+|-- Data_Lifecycle_Smart_Farming.ipynb     <- Notebook analisis utama
+|-- data/
+|   `-- raw/
+|       `-- smart_farming_sensor_data.csv  <- Dataset mentah dari Kaggle
+|-- dashboard/
+|   `-- streamlit_app.py                   <- Dashboard interaktif Streamlit
+`-- outputs/
+    |-- analysis_report.pdf                <- Laporan analisis lengkap (PDF)
+    |-- boxplot_per_crop.png               <- Boxplot per jenis tanaman
+    |-- cleaned_data.csv                   <- Data yang sudah dibersihkan
+    |-- correlation_heatmap.png            <- Heatmap korelasi sensor
+    |-- dashboard_screenshoot.png          <- Screenshot dashboard (halaman pertama)
+    |-- data_quality_score.png             <- Visualisasi skor kualitas data
+    |-- distribusi_soil_type.png           <- Distribusi crop per jenis tanah
+    |-- eda_distributions.png              <- Visualisasi distribusi EDA
+    `-- timeseries_trend.png               <- Trend time series sensor
 ```
 
 ---
@@ -160,4 +162,6 @@ Dashboard akan terbuka di `http://localhost:8501`
 ---
 
 **Mata Kuliah:** Big Data & IoT  
-**Tahun:** 2025
+**Nama:** wahyu setiawan  
+**NPM:** 23082010142  
+**Tahun:** 2026
